@@ -23,9 +23,13 @@ body {
 	justify-content: center;
 }
 
-.page-content div:first-child {
+.page-content div {
 	display: none;
 	height: fit-content;
+}
+
+.page-content div div {
+	display: block;
 }
 
 .page-content .content-active {
