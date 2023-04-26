@@ -1,0 +1,19 @@
+.tagline {
+	font-size: 1.5rem;
+	font-family: QuantifyHeader;
+}
+
+.tagline .logo {
+	display: flex;
+	border-bottom: 1px solid var(--white);
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.tagline .logo .text {
+	height: fit-content;
+}
+
+.tagline .logo .image {
+	width: 20rem;
+}
