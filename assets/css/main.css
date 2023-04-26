@@ -2,23 +2,29 @@
 @import 'variables.css';
 
 body {
- 	display: flex;
- 	position: fixed;
- 	flex-direction: row-reverse;
- 	background-color: var(--purple);
- 	color: var(--white);
- 	margin: 0;
- 	width: 100vw;
- 	height: 100vh;
+	display: flex;
+	position: fixed;
+	flex-direction: row-reverse;
+	background-color: var(--purple);
+	color: var(--white);
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
 	font-family: 'Montserrat';
 }
 
 .page-content {
 	overflow-y: hidden;
+	height: 100%;
+	width: 100%;
+	flex: 2 0 80%;
+	align-items: center;
+	justify-content: center;
 }
 
 .page-content div {
 	display: none;
+	height: fit-content;
 }
 
 .page-content .content-active {
@@ -30,7 +36,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 }
 
 .page-nav .nav-item.nav-active {
@@ -38,7 +45,6 @@ body {
 }
 
 .tagline {
-	padding: 4rem 2rem 4rem 5rem;
 	font-size: 1.5rem;
 	font-family: QuantifyHeader;
 }
@@ -55,7 +61,7 @@ body {
 }
 
 .tagline .logo .image {
-    width: 20rem;
+	width: 20rem;
 }
 
 .services {
