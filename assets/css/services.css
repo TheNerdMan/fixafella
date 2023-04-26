@@ -16,6 +16,10 @@
 	position: absolute;
 }
 
+.service-cards .card:hover {
+	background: red;
+}
+
 .service-cards .card:nth-child(1) {
 	transform: rotateZ(-10deg) translate(-10%, 3%);
 }
