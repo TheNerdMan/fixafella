@@ -16,15 +16,15 @@
 	position: absolute;
 }
 
-.service-cards .card::nth-child(1) {
+.service-cards .card:nth-child(1) {
 	transform: rotateZ(-10deg) translate(-10%, 3%);
 }
 
-.service-cards .card::nth-child(2) {
+.service-cards .card:nth-child(2) {
 	transform: translate(45%, 2%);
 	z-index: 10;
 }
 
-.service-cards .card::nth-child(3) {
+.service-cards .card:nth-child(3) {
 	transform: rotateZ(10deg) translate(110%, -11%);
 }
