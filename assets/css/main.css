@@ -1,18 +1,6 @@
 /* Path: assets\css\main.css */
 @import 'variables.css';
 
-body {
-	display: flex;
-	position: fixed;
-	flex-direction: row-reverse;
-	background-color: var(--purple);
-	color: var(--white);
-	margin: 0;
-	width: 100vw;
-	height: 100vh;
-	font-family: 'Montserrat';
-}
-
 /* Path: assets\css\page-content.css */
 @import 'page-content.css';
 
@@ -27,3 +15,15 @@ body {
 
 /* Path: assets\css\contact-us.css */
 @import 'contact-us.css';
+
+body {
+	display: flex;
+	position: fixed;
+	flex-direction: row-reverse;
+	background-color: var(--purple);
+	color: var(--white);
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Montserrat';
+}
